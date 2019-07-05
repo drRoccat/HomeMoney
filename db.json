@@ -5,6 +5,42 @@
       "email": "wfm@mail.ru",
       "password": "12345678",
       "name": "Администратор"
+    },
+    {
+      "id": 2,
+      "email": "qwe@gmail.com",
+      "password": "12345678",
+      "name": "Vlad"
+    },
+    {
+      "email": "belka422@gmail.com",
+      "password": "Jeff2012",
+      "name": "Jeff",
+      "id": 3
+    },
+    {
+      "email": "belka4@gmail.com",
+      "password": "qwertyui",
+      "name": "123",
+      "id": 4
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "qwer1234",
+      "name": "test",
+      "id": 5
+    },
+    {
+      "email": "test23@mail.ru",
+      "password": "qwerasdf",
+      "name": "asdf",
+      "id": 6
+    },
+    {
+      "email": "qwe1@gmail.com",
+      "password": "12345678",
+      "name": "Vlad",
+      "id": 7
     }
   ],
   "bill": {
