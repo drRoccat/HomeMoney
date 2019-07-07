@@ -1,0 +1,28 @@
+<div class="title-block">
+  <h3 class="title">
+    Страница записей <span class="sparkline bar"></span>
+  </h3>
+</div>
+<section class="section text-center" *ngIf="!isLoaded">
+  Loading ...
+</section>
+
+<section class="section" *ngIf="isLoaded">
+  <div class="row">
+    <div class="col-md-6">
+      <lil-add-event></lil-add-event>
+    </div>
+    <div class="col-md-6">
+      <lil-add-category (onCategoryAdd)="newCategoryAdded($event)"></lil-add-category>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <lil-edit-category
+        [categories]="categories"
+        (onCategoryEdit)="categoryWasEdited($event)"
+      >
+      </lil-edit-category>
+    </div>
+  </div>
+</section>
