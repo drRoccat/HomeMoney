@@ -2,76 +2,35 @@
   "users": [
     {
       "id": 1,
-      "email": "wfm@mail.ru",
-      "password": "12345678",
-      "name": "Администратор"
-    },
-    {
-      "id": 2,
       "email": "qwe@gmail.com",
       "password": "12345678",
-      "name": "Vlad"
-    },
-    {
-      "email": "belka422@gmail.com",
-      "password": "Jeff2012",
-      "name": "Jeff",
-      "id": 3
-    },
-    {
-      "email": "belka4@gmail.com",
-      "password": "qwertyui",
-      "name": "123",
-      "id": 4
-    },
-    {
-      "email": "test1@gmail.com",
-      "password": "qwer1234",
-      "name": "test",
-      "id": 5
-    },
-    {
-      "email": "test23@mail.ru",
-      "password": "qwerasdf",
-      "name": "asdf",
-      "id": 6
-    },
-    {
-      "email": "qwe1@gmail.com",
-      "password": "12345678",
-      "name": "Vlad",
-      "id": 7
+      "name": "Admin"
     }
   ],
   "bill": {
-    "value": 100000,
+    "value": 94310,
     "currency": "RUB"
   },
   "categories": [
     {
-      "name": "Дом",
+      "name": "Home",
       "capacity": 15000,
       "id": 1
     },
     {
-      "name": "Еда",
+      "name": "Food",
       "capacity": 10000,
       "id": 2
     },
     {
       "id": 3,
-      "name": "Машина",
+      "name": "Car",
       "capacity": 7000
     },
     {
-      "name": "new12",
-      "capacity": 100,
+      "name": "Test",
+      "capacity": 11200,
       "id": 4
-    },
-    {
-      "name": "new1",
-      "capacity": 1,
-      "id": 5
     }
   ],
   "events": [
@@ -81,7 +40,7 @@
       "amount": 1250,
       "category": 2,
       "date": "12.06.2017 19:49:02",
-      "description": "Подарили еду в гостях"
+      "description": "TEST"
     },
     {
       "id": 2,
@@ -89,7 +48,7 @@
       "amount": 1300,
       "category": 1,
       "date": "13.06.2017 19:49:02",
-      "description": "Купил посудомоечную машину"
+      "description": "TEST"
     },
     {
       "type": "income",
@@ -97,7 +56,7 @@
       "category": 2,
       "date": "17.06.2017 14:00:48",
       "id": 3,
-      "description": "Поход в окей с баллами. Бесплатная еда"
+      "description": "TEST"
     },
     {
       "type": "outcome",
@@ -105,7 +64,7 @@
       "category": 2,
       "date": "17.06.2017 14:00:58",
       "id": 4,
-      "description": "Закупка на неделю"
+      "description": "TEST"
     },
     {
       "type": "outcome",
@@ -113,7 +72,47 @@
       "category": 3,
       "date": "10.06.2017 14:01:58",
       "id": 5,
-      "description": "Заправка + проход ТО"
+      "description": "TEST"
+    },
+    {
+      "type": "outcome",
+      "amount": 2000,
+      "category": 2,
+      "date": "02.04.2020 10:12:59",
+      "description": "TEST",
+      "id": 6
+    },
+    {
+      "type": "outcome",
+      "amount": 1000,
+      "category": 4,
+      "date": "02.04.2020 10:13:28",
+      "description": "TEST",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 2000,
+      "category": 3,
+      "date": "02.04.2020 10:14:08",
+      "description": "TEST",
+      "id": 8
+    },
+    {
+      "type": "outcome",
+      "amount": 590,
+      "category": 3,
+      "date": "02.04.2020 10:14:22",
+      "description": "TEST",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 100,
+      "category": 3,
+      "date": "02.04.2020 10:14:30",
+      "description": "TEST",
+      "id": 10
     }
   ]
 }
